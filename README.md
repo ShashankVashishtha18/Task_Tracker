@@ -1,6 +1,18 @@
 https://roadmap.sh/projects/task-tracker
-This is a simple C++ todo list program. 
-step 1 - clone it 
-step 2 - open it in vsCode
-step 3 - open terminal and find for task_tracker.exe
-step 4 - in terminal ./task_tracker use this.
+Designed and built a cross-platform command-line task management application using C++ and JSON to streamline daily productivity and track tasks efficiently.
+
+Key Features:
+Add/View/Edit/Delete Tasks: Full CRUD support via CLI
+
+Mark Complete: Tracks task progress
+
+Persistent Storage: Saves tasks using a local JSON file with nlohmann/json library
+
+Object-Oriented Design: TaskManager class handles all operations
+
+Modular Code: Easily extensible to add priorities, deadlines, or reminders
+
+Data Handling: Safe and atomic file I/O operations using fstream
+
+Tech Stack:
+C++, JSON, nlohmann/json, File I/O, OOP, CLI, Makefile
